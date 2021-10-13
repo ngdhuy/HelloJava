@@ -3,6 +3,7 @@ package vn.edu.hcmus.fit.ndhuy.helloJava;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Scanner;
 
 /**
  * vn.edu.hcmus.fit.ndhuy.helloJava
@@ -38,5 +39,13 @@ public class Main {
         } catch (ParseException e) {
             e.printStackTrace();
         }
+
+        System.out.print("Enter an Integer number: ");
+        Scanner scanner = new Scanner(System.in);
+        int i_value = scanner.nextInt();
+        System.out.println("Value is: " + i_value);
+
+        String sResult = String.format("Value is %d", i_value);
+        System.out.println(sResult);
     }
 }
