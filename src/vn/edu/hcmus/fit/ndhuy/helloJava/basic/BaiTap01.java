@@ -9,6 +9,10 @@ import java.util.Scanner;
  * Description: ...
  */
 public class BaiTap01 {
+    /**
+     * Main function
+     * @param argv input parameter
+     */
     public static void main(String[] argv) {
         int n;
         Scanner scanner = new Scanner(System.in);
